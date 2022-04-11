@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello World..!</h1>
+    <!--    to write JS code, we need a script element
+            there are two places where we can add script element i.e head section and end of the body section(also its best practice) -->
+    
+    
+    <script>
+    // comment(//)
+    // console.log('Hello World');
+    // above line is a statement. A statement is a piece of code that expresses an action
+    // to be carried out.
+    // log is a message on console
+    
+    // why we prefer JS code to put in body section?
+
+    // There is two reason for that. One is that the browser parses file from top to bottom.
+    // So, if you put JS code in head and you have a lot of JS code there, so your browser 
+    // might get busy and executing that JS code, it's one thing to be able to render the 
+    // content of the page. This will create bad use experience. 
+    // Your user look at your web page is white or blank while your browser is busy parsing 
+    // and executing JS code. 
+    //The second reason is that almost always the code that we have in script tag is need to talk to the
+    // element of the web page. E.g hide or show some element.
+    </script> 
+
+    <!-- all JS code we have in a separate  file we need to reference that file in script element -->
+    <!-- <script src="index.js"></script> -->
+    <!-- <script src="operators.js"></script> -->
+    <!-- <script src="control_flow.js"></script> -->
+    <!-- <script src="objects.js"></script> -->
+    <!-- <script src="arrays.js"></script> -->
+    <script src="funtions.js"></script>
+
+
+</body>
+</html>
